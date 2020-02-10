@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1906b30d-5887-4d01-ae6f-cf72dc4d2501" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1X0ee1HaNuIlkGxNhRkGnUevgHA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578917448067" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.splitter.proportion" value="0.14128152" />
+  </component>
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="AllDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.AllDemo" />
+      <module name="basicsofjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChainingException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.ChainingException" />
+      <module name="basicsofjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackTraceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.StackTraceTest" />
+      <module name="basicsofjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Test" />
+      <module name="basicsofjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.Test" />
+      <module name="basicsofjava" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.StackTraceTest" />
+      <item itemvalue="Application.AllDemo" />
+      <item itemvalue="Application.ChainingException" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.StackTraceTest" />
+        <item itemvalue="Application.AllDemo" />
+        <item itemvalue="Application.ChainingException" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1906b30d-5887-4d01-ae6f-cf72dc4d2501" name="Default Changelist" comment="" />
+      <created>1575125012490</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575125012490</updated>
+      <workItem from="1575125015131" duration="20349000" />
+      <workItem from="1575254857772" duration="16604000" />
+      <workItem from="1575791148347" duration="11919000" />
+      <workItem from="1575891121471" duration="6000" />
+      <workItem from="1575891162078" duration="5962000" />
+      <workItem from="1576408774363" duration="5419000" />
+      <workItem from="1576572195371" duration="3823000" />
+      <workItem from="1576592952453" duration="6469000" />
+      <workItem from="1576715361387" duration="10458000" />
+      <workItem from="1576891401119" duration="600000" />
+      <workItem from="1576931612712" duration="284000" />
+      <workItem from="1577004201406" duration="608000" />
+      <workItem from="1577011801269" duration="7370000" />
+      <workItem from="1577150744251" duration="3061000" />
+      <workItem from="1577325345092" duration="640000" />
+      <workItem from="1577342667190" duration="614000" />
+      <workItem from="1577411328052" duration="11589000" />
+      <workItem from="1577519513435" duration="3471000" />
+      <workItem from="1577589123197" duration="61000" />
+      <workItem from="1577687669220" duration="605000" />
+      <workItem from="1578018396231" duration="15835000" />
+      <workItem from="1578560166880" duration="885000" />
+      <workItem from="1578799641900" duration="6479000" />
+      <workItem from="1578918131446" duration="7000" />
+      <workItem from="1578918222181" duration="1797000" />
+      <workItem from="1579227324114" duration="489000" />
+      <workItem from="1580187532166" duration="621000" />
+      <workItem from="1580484627287" duration="6541000" />
+      <workItem from="1580524713636" duration="2211000" />
+      <workItem from="1581000514245" duration="502000" />
+      <workItem from="1581001391110" duration="952000" />
+      <workItem from="1581002440962" duration="32973000" />
+      <workItem from="1581298123415" duration="730000" />
+      <workItem from="1581301666464" duration="488000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="199" key="#Project_Structure" timestamp="1581262792128">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="199" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1581262792128" />
+    <state x="828" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581251320911">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="828" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581251320911" />
+    <state x="692" y="343" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580485803303">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="692" y="343" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1580485803303" />
+    <state x="945" y="253" key="#com.intellij.ide.util.MemberChooser" timestamp="1580486175207">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="945" y="253" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1580486175207" />
+    <state x="806" y="429" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580388466282">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="806" y="429" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1580388466282" />
+    <state x="250" y="317" key="FileChooserDialogImpl" timestamp="1581301607889">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="250" y="317" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1581301607889" />
+    <state width="1877" height="121" key="GridCell.Tab.0.bottom" timestamp="1581294401061">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="121" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1581294401061" />
+    <state width="1877" height="121" key="GridCell.Tab.0.center" timestamp="1581294401061">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="121" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1581294401061" />
+    <state width="1877" height="121" key="GridCell.Tab.0.left" timestamp="1581294401061">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="121" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1581294401061" />
+    <state width="1877" height="121" key="GridCell.Tab.0.right" timestamp="1581294401061">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="121" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1581294401061" />
+    <state x="17" y="137" width="906" height="850" key="SettingsEditor" timestamp="1581301780335">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="17" y="137" width="906" height="850" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1581301780335" />
+    <state x="1030" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1581301674533">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1030" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581301674533" />
+    <state x="1383" y="272" width="700" height="530" key="recent.locations.popup" timestamp="1581148420234">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1383" y="272" width="700" height="530" key="recent.locations.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1581148420234" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/Test.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/BigNumber.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+</project>
