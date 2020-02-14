@@ -1,5 +1,6 @@
 package genericity;
 
+import java.lang.reflect.Array;
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -62,6 +63,20 @@ public class Test {
 
 //        Pair<String>[] nums = new Pair<String>[10];   //Error
 //        Pair<String>[] table =(Pair<String>[]) new Pair<?>[10]; //可以创建但是不安全
+
+//        Pair<Manager> managerPair = new Pair<>(ceo, cfo);
+//        Pair<Employee> employeePair = managerPair;  //illegal, but suppose it wasn't
+//        employeePair.setFirstNumber(lowlyEmployee);
+
+//        Pair<Integer> pair = new Pair<>();
+//        Pair rawPair = pair;
+//        rawPair.setFirstNumber(1);
+//        System.out.println(rawPair.getFirstNumber());
+
+        List<?> list = new ArrayList<>();
+        List list1 = new ArrayList();
+        list.add(null);
+        list1.add(1);
     }
 
 //    public static <T extends Comparable> T min(T[] a){

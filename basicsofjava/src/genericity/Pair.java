@@ -34,9 +34,9 @@ public class Pair<T> {
     //'equals(T)' in 'genericity.Pair' clashes with 'equals(Object)' in 'java.lang.Object';
     // both methods have same erasure, yet neither overrides the other
     //当然，补救方式肯定是重新命名此方法~~~
-    public boolean equals(T value){
-        return firstNumber.equals(value) && secondNumber.equals(value);
-    }
+//    public boolean equals(T value){
+//        return firstNumber.equals(value) && secondNumber.equals(value);
+//    }
 
     public static void main(String[] args){
         Pair<String> pair = new Pair<>("wwf", "fsy");
