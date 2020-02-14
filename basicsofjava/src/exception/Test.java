@@ -2,12 +2,14 @@ package exception;
 
 import java.io.*;
 import java.sql.SQLException;
+import java.util.EmptyStackException;
 import java.util.Scanner;
+import java.util.Stack;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Test {
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) throws Throwable {
 //        System.out.println(f(2));
 
 //        try(Resource res = ...){
@@ -62,7 +64,23 @@ public class Test {
 //
 //        }
 
-        System.out.println("Hello~sunwukong");
+//        System.out.println("Hello~sunwukong");
+
+        Stack<Integer> stack = new Stack<>();
+        printStack(stack);
+    }
+
+    private static void printStack(Stack<Integer> stack) throws Throwable {
+        for(int i = 0; i < 100; ++i){
+            try{
+                System.out.println("i:" + i + stack.pop());
+            }catch (EmptyStackException e){
+                Throwable throwable = new EmptyStackException();
+                throwable.initCause(e);
+//                throw throwable;
+                System.out.println("exception:" + throwable);
+            }
+        }
     }
 
     private static int printException(){

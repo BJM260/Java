@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1906b30d-5887-4d01-ae6f-cf72dc4d2501" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/genericity/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/genericity/ArrayListW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/genericity/DateInterval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/genericity/GenericityFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/genericity/Interval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/genericity/Problem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/genericity/Singleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genericity/ArrayAlg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/genericity/ArrayAlg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basicsofjava/exception/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basicsofjava/exception/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basicsofjava/genericity/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basicsofjava/genericity/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exception/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exception/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/genericity/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/genericity/Pair.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/genericity/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/genericity/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,20 +75,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.14128152" />
   </component>
-  <component name="RunManager" selected="Application.ArrayAlg">
-    <configuration name="AllDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exception.AllDemo" />
-      <module name="basicsofjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exception.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test (1)">
     <configuration name="ArrayAlg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="genericity.ArrayAlg" />
       <module name="basicsofjava" />
@@ -94,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackTraceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exception.StackTraceTest" />
+    <configuration name="GenericityFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="genericity.GenericityFunction" />
       <module name="basicsofjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exception.*" />
+          <option name="PATTERN" value="genericity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="genericity.Test" />
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.Test" />
       <module name="basicsofjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="genericity.*" />
+          <option name="PATTERN" value="exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,6 +121,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="genericity.Test" />
+      <module name="basicsofjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="genericity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,18 +157,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Test" />
-      <item itemvalue="Application.StackTraceTest" />
-      <item itemvalue="Application.AllDemo" />
       <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.ArrayAlg" />
+      <item itemvalue="Application.Test (2)" />
+      <item itemvalue="Application.GenericityFunction" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayAlg" />
         <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.GenericityFunction" />
+        <item itemvalue="Application.Test (2)" />
+        <item itemvalue="Application.ArrayAlg" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.StackTraceTest" />
-        <item itemvalue="Application.AllDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +228,8 @@
       <workItem from="1581002440962" duration="32973000" />
       <workItem from="1581298123415" duration="730000" />
       <workItem from="1581301666464" duration="2665000" />
-      <workItem from="1581581742826" duration="15424000" />
+      <workItem from="1581581742826" duration="24910000" />
+      <workItem from="1581655633632" duration="10781000" />
     </task>
     <servers />
   </component>
@@ -252,30 +261,30 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="250" y="317" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1581301607889" />
-    <state width="1430" height="153" key="GridCell.Tab.0.bottom" timestamp="1581599744818">
+    <state width="1512" height="252" key="GridCell.Tab.0.bottom" timestamp="1581687743483">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1430" height="153" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1581599744818" />
-    <state width="1430" height="153" key="GridCell.Tab.0.center" timestamp="1581599744818">
+    <state width="1512" height="252" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1581687743483" />
+    <state width="1512" height="252" key="GridCell.Tab.0.center" timestamp="1581687743483">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1430" height="153" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1581599744818" />
-    <state width="1430" height="153" key="GridCell.Tab.0.left" timestamp="1581599744818">
+    <state width="1512" height="252" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1581687743483" />
+    <state width="1512" height="252" key="GridCell.Tab.0.left" timestamp="1581687743483">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1430" height="153" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1581599744818" />
-    <state width="1430" height="153" key="GridCell.Tab.0.right" timestamp="1581599744818">
+    <state width="1512" height="252" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1581687743483" />
+    <state width="1512" height="252" key="GridCell.Tab.0.right" timestamp="1581687743483">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1430" height="153" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1581599744818" />
-    <state x="17" y="137" width="906" height="850" key="SettingsEditor" timestamp="1581301780335">
+    <state width="1512" height="252" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1581687743483" />
+    <state x="962" y="137" width="916" height="850" key="SettingsEditor" timestamp="1581655980771">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="17" y="137" width="906" height="850" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1581301780335" />
-    <state x="1030" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1581582372203">
+    <state x="962" y="137" width="916" height="850" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1581655980771" />
+    <state x="1030" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1581655634060">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1030" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581582372203" />
+    <state x="1030" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581655634060" />
     <state x="1383" y="272" width="700" height="530" key="recent.locations.popup" timestamp="1581148420234">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
