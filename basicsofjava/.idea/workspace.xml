@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1906b30d-5887-4d01-ae6f-cf72dc4d2501" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/genericity/PairAlg.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basicsofjava/genericity/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basicsofjava/genericity/Employee.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/basicsofjava/genericity/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basicsofjava/genericity/Manager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genericity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/genericity/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genericity/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/genericity/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basicsofjava/genericity/Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basicsofjava/genericity/Pair.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/genericity/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/genericity/Pair.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +68,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.14128152" />
   </component>
-  <component name="RunManager" selected="Application.Manager">
+  <component name="RunManager" selected="Application.Pair">
     <configuration name="ArrayAlg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="genericity.ArrayAlg" />
       <module name="basicsofjava" />
@@ -107,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exception.Test" />
+    <configuration name="Pair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="genericity.Pair" />
       <module name="basicsofjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exception.*" />
+          <option name="PATTERN" value="genericity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="genericity.Test" />
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.Test" />
       <module name="basicsofjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="genericity.*" />
+          <option name="PATTERN" value="exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,9 +154,11 @@
       <item itemvalue="Application.Test (2)" />
       <item itemvalue="Application.GenericityFunction" />
       <item itemvalue="Application.Manager" />
+      <item itemvalue="Application.Pair" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Pair" />
         <item itemvalue="Application.Manager" />
         <item itemvalue="Application.GenericityFunction" />
         <item itemvalue="Application.Test (2)" />
@@ -223,7 +226,8 @@
       <workItem from="1581655633632" duration="21113000" />
       <workItem from="1581735438214" duration="31000" />
       <workItem from="1581735487609" duration="13000" />
-      <workItem from="1581735515551" duration="2638000" />
+      <workItem from="1581735515551" duration="5809000" />
+      <workItem from="1581745897097" duration="1834000" />
     </task>
     <servers />
   </component>
@@ -255,30 +259,30 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="250" y="317" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1581301607889" />
-    <state width="914" height="149" key="GridCell.Tab.0.bottom" timestamp="1581730003058">
+    <state width="1149" height="178" key="GridCell.Tab.0.bottom" timestamp="1581745856740">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="149" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1581730003058" />
-    <state width="914" height="149" key="GridCell.Tab.0.center" timestamp="1581730003058">
+    <state width="1149" height="178" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1581745856740" />
+    <state width="1149" height="178" key="GridCell.Tab.0.center" timestamp="1581745856740">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="149" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1581730003058" />
-    <state width="914" height="149" key="GridCell.Tab.0.left" timestamp="1581730003058">
+    <state width="1149" height="178" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1581745856740" />
+    <state width="1149" height="178" key="GridCell.Tab.0.left" timestamp="1581745856740">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="149" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1581730003058" />
-    <state width="914" height="149" key="GridCell.Tab.0.right" timestamp="1581730003058">
+    <state width="1149" height="178" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1581745856740" />
+    <state width="1149" height="178" key="GridCell.Tab.0.right" timestamp="1581745856740">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="149" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1581730003058" />
+    <state width="1149" height="178" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1581745856740" />
     <state x="962" y="137" width="916" height="850" key="SettingsEditor" timestamp="1581655980771">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="962" y="137" width="916" height="850" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1581655980771" />
-    <state x="1030" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1581735517076">
+    <state x="1030" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1581767280813">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1030" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581735517076" />
+    <state x="1030" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581767280813" />
     <state x="1383" y="272" width="700" height="530" key="recent.locations.popup" timestamp="1581148420234">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

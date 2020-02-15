@@ -66,16 +66,50 @@ public class Pair<T> {
 //        System.out.println("husband:" + pair.getFirstNumber());
 //        System.out.println("wife:" + pair.getSecondNumber());
 
-        Pair pair = new Pair();
-//        Pair pair2 = pair.getFirstNumber();
-        Object pair2 = pair.getFirstNumber();
+//        Pair pair = new Pair();
+////        Pair pair2 = pair.getFirstNumber();
+//        Object pair2 = pair.getFirstNumber();
+//
+//        Object object = new Object();
+//        pair.setFirstNumber(object);
+//
+//        Pair<?> pair3 = new Pair<>();
+////        pair3.setFirstNumber(object);
+//        Object object2 = pair3.getFirstNumber();
 
-        Object object = new Object();
-        pair.setFirstNumber(object);
+        Manager ceo = new Manager("CEO", 5000, 20000);
+        Manager cfo = new Manager("CFO", 5000, 18000);
+        Pair<Manager> buddies = new Pair<>(ceo, cfo);
+        printBuddies(buddies);
 
-        Pair<?> pair3 = new Pair<>();
-//        pair3.setFirstNumber(object);
-        Object object2 = pair3.getFirstNumber();
+        ceo.setSalaryPlus(50000);
+        cfo.setSalaryPlus(52000);
+        Manager[] managers = {ceo, cfo};
+        Pair<Employee> res = new Pair<>();
+        minmaxBonus(managers, res);
+        System.out.println("first:" + res.getFirstNumber().getName() + ", second:" + res.getSecondNumber().getName());
+        minmaxBonus(managers, res);
+        System.out.println("first:" + res.getFirstNumber().getName() + ", second:" + res.getSecondNumber().getName());
+    }
+
+    public static void printBuddies(Pair<? extends Employee> pair){
+        System.out.println("name:" + pair.getFirstNumber().getName() + ";\n" + "name:" + pair.getSecondNumber().getName() + ";");
+    }
+
+    public static void minmaxBonus(Manager[] managers, Pair<? super Manager> res){
+        if(managers == null || managers.length == 0)
+            return;
+        Manager min = managers[0];
+        Manager max = managers[0];
+        for(int i = 1; i < managers.length; ++i){
+            if(min.getSalaryPlus() > managers[i].getSalaryPlus())
+                min = managers[i];
+            if(max.getSalaryPlus() < managers[i].getSalaryPlus())
+                max = managers[i];
+        }
+
+        res.setFirstNumber(min);
+        res.setSecondNumber(max);
     }
 }
 //---对应的原始类型为---
