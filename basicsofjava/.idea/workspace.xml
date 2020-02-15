@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1906b30d-5887-4d01-ae6f-cf72dc4d2501" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/genericity/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/genericity/Manager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basicsofjava/genericity/Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basicsofjava/genericity/Pair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basicsofjava/genericity/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basicsofjava/genericity/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basicsofjava/genericity/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basicsofjava/genericity/Manager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/genericity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/genericity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/genericity/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/genericity/Manager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/genericity/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/genericity/Pair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genericity/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/genericity/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +148,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Application.Test" />
       <item itemvalue="Application.ArrayAlg" />
       <item itemvalue="Application.Test (2)" />
       <item itemvalue="Application.GenericityFunction" />
@@ -159,7 +157,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Manager" />
-        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.GenericityFunction" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.ArrayAlg" />
@@ -223,7 +220,10 @@
       <workItem from="1581298123415" duration="730000" />
       <workItem from="1581301666464" duration="2665000" />
       <workItem from="1581581742826" duration="24910000" />
-      <workItem from="1581655633632" duration="15442000" />
+      <workItem from="1581655633632" duration="21113000" />
+      <workItem from="1581735438214" duration="31000" />
+      <workItem from="1581735487609" duration="13000" />
+      <workItem from="1581735515551" duration="2638000" />
     </task>
     <servers />
   </component>
@@ -255,30 +255,30 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="250" y="317" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1581301607889" />
-    <state width="1512" height="149" key="GridCell.Tab.0.bottom" timestamp="1581699169928">
+    <state width="914" height="149" key="GridCell.Tab.0.bottom" timestamp="1581730003058">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1512" height="149" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1581699169928" />
-    <state width="1512" height="149" key="GridCell.Tab.0.center" timestamp="1581699169928">
+    <state width="914" height="149" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1581730003058" />
+    <state width="914" height="149" key="GridCell.Tab.0.center" timestamp="1581730003058">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1512" height="149" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1581699169928" />
-    <state width="1512" height="149" key="GridCell.Tab.0.left" timestamp="1581699169928">
+    <state width="914" height="149" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1581730003058" />
+    <state width="914" height="149" key="GridCell.Tab.0.left" timestamp="1581730003058">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1512" height="149" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1581699169928" />
-    <state width="1512" height="149" key="GridCell.Tab.0.right" timestamp="1581699169928">
+    <state width="914" height="149" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1581730003058" />
+    <state width="914" height="149" key="GridCell.Tab.0.right" timestamp="1581730003058">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1512" height="149" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1581699169928" />
+    <state width="914" height="149" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1581730003058" />
     <state x="962" y="137" width="916" height="850" key="SettingsEditor" timestamp="1581655980771">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="962" y="137" width="916" height="850" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1581655980771" />
-    <state x="1030" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1581655634060">
+    <state x="1030" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1581735517076">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1030" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581655634060" />
+    <state x="1030" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581735517076" />
     <state x="1383" y="272" width="700" height="530" key="recent.locations.popup" timestamp="1581148420234">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
