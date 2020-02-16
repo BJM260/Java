@@ -1,10 +1,12 @@
 package genericity;
 
+import java.io.File;
 import java.lang.reflect.Array;
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
+import java.util.Scanner;
 
 public class Test {
     public static void main(String[] args) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
@@ -73,10 +75,20 @@ public class Test {
 //        rawPair.setFirstNumber(1);
 //        System.out.println(rawPair.getFirstNumber());
 
-        List<?> list = new ArrayList<>();
-        List list1 = new ArrayList();
-        list.add(null);
-        list1.add(1);
+//        List<?> list = new ArrayList<>();
+//        List list1 = new ArrayList();
+//        list.add(null);
+//        list1.add(1);
+
+//        new Block(){
+//            public void body() throws Exception{
+//                Scanner sc = new Scanner(new File("ququx"), "UTF-8");
+//                while(sc.hasNext())
+//                    System.out.println(sc.next());
+//            }
+//        }.toThread().start();
+
+        System.out.println(Pair.class);
     }
 
 //    public static <T extends Comparable> T min(T[] a){
