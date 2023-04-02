@@ -27,7 +27,7 @@ public class Test {
 //        System.out.println(hero.equals(hero2));
 //
 //        String name = "FengShuYing";
-//        String name2 = "WuWenFeng";
+//        String name2 = "FengShuYing2";
 //        System.out.println(name.equals(name2));
 //
 //        char c = 'a';
